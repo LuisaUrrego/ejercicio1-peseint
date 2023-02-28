@@ -1,0 +1,10 @@
+Algoritmo perimetro_area_triangulo
+	Escribir "Por favor digite la base del triangulo"
+	Leer base
+	Escribir "Por favor ingrese la altura del triangulo"
+	Leer altura
+	perimetro<- 2 * (base + altura)
+	area<- base*altura
+	Escribir "El perimetro del rectangulo es ", perimetro, " Y el area del rectangulo es ", area
+	
+FinAlgoritmo

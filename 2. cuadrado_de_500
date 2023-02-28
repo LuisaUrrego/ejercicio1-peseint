@@ -1,0 +1,6 @@
+Algoritmo cuadrado_de_500
+	Escribir "Por favor ingrese un numero"
+	Leer numero
+	cuadrado<- numero * numero
+	Escribir "El cuadrado es " cuadrado
+FinAlgoritmo

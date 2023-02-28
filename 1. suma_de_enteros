@@ -1,0 +1,6 @@
+Algoritmo suma_de_enteros
+	Escribir "Ingresa cuatro numeros enteros"
+	Leer numero1, numero2, numero3, numero4
+	suma<- numero1 + numero2 + numero3 + numero4
+	Escribir "El total es " suma
+FinAlgoritmo

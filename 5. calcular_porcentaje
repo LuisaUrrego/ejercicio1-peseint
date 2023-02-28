@@ -1,0 +1,8 @@
+Algoritmo calcular_porcentaje
+	Escribir "Por favor ingrese la cantidad inicial para calcular el porcentaje"
+	Leer numero
+	Escribir "Por favor ingrese que porcentaje quiere sacar de esa cantidad "
+	Leer porciento
+	porcentaje<- porciento * numero / 100
+	Escribir  "El " porciento " Porciento de ", numero " es ", porcentaje
+FinAlgoritmo

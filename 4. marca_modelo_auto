@@ -1,0 +1,7 @@
+Algoritmo marca_modelo_auto
+	Escribir "Por favor ingrese la marca del auto"
+	Leer marca
+	Escribir "Por favor ingrese el modelo del auto"
+	Leer modelo
+	Escribir "El modelo del auto es ", modelo, " Y la marca del auto es " marca
+FinAlgoritmo

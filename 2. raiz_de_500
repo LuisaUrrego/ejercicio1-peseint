@@ -1,0 +1,7 @@
+Algoritmo raiz_de_500
+	Escribir "Por favor ingrese un numero"
+	Leer number
+	rcuadrada<- RC(number)
+	Escribir "La raiz cuadrada del numero " number " es: " rcuadrada
+	
+FinAlgoritmo

@@ -1,0 +1,21 @@
+Algoritmo calcular_total_subtotal_iva
+	
+	Escribir "Ingrese el precio de los cinco productos"
+	Leer producto1, producto2, producto3, producto4, producto5
+	total<- producto1 + producto2 + producto3 + producto4 + producto5
+	Escribir "El valor total de los 5 productos es " total " pesos"
+	
+	Escribir "Ingrese el porcentaje del iva"
+	Leer iva
+	porcentaje<- iva / 100 + 1
+	//calculo del subtotal
+	subtotal<- total / porcentaje
+	Escribir "El valor del subtotal es " subtotal
+	
+	//calculo del iva
+	valor_iva<- total - subtotal
+	Escribir "El valor del iva es " valor_iva
+	
+	
+	
+FinAlgoritmo
